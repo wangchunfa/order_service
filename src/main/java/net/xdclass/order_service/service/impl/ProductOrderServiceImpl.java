@@ -23,9 +23,9 @@ public class ProductOrderServiceImpl implements ProductOrderService {
 
     public ProductOrder save(int userId, int productId) {
 
-        if(userId == 1){
-            return null;
-        }
+//        if(userId == 1){
+//            return null;
+//        }
         //调用订单服务
         String response = productClient.findById(productId);
 
